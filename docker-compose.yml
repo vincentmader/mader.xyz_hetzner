@@ -6,8 +6,8 @@ services:
       context: ./website
     restart: always
     environment:
-      VIRTUAL_HOST: mader.xyz, www.mader.xyz
-      LETSENCRYPT_HOST: mader.xyz, www.mader.xyz
+      VIRTUAL_HOST: mader.xyz, www.mader.xyz, vincentmader.com, www.vincentmader.com
+      LETSENCRYPT_HOST: mader.xyz, www.mader.xyz, vincentmader.com, www.vincentmader.com
       LETSENCRYPT_EMAIL: vincent.mader@icloud.com
     ports:
       - 5007:8000
