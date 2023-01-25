@@ -1,5 +1,5 @@
 [package]
-name = "docker-rust-test"
+name = "server"
 edition = "2018"
 version = "0.1.0"
 

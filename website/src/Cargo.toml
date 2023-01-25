@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "client",
+    "engine",
+    "server",
+]
+default-members = [
+    "server"
+]
