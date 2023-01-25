@@ -3,7 +3,7 @@ version: "3.3"
 services:
   my-server:
     build:
-      context: ./rust_rocket_server
+      context: ./website
     restart: always
     environment:
       VIRTUAL_HOST: mader.xyz, www.mader.xyz
