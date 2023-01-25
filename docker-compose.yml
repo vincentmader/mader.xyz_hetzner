@@ -7,8 +7,8 @@ services:
     restart: always
     environment:
       VIRTUAL_HOST: mader.xyz, www.mader.xyz
-      LETENCRYPT_HOST: mader.xyz, www.mader.xyz
-      LETENCRYPT_EMAIL: vincent.mader@icloud.com
+      LETSENCRYPT_HOST: mader.xyz, www.mader.xyz
+      LETSENCRYPT_EMAIL: vincent.mader@icloud.com
     ports:
       - 5007:8000
     networks:
